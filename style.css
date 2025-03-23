@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 1em sans-serif;
+    width: 100%;
+}
+.marmelad-regular {
+    font-family: "Marmelad", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.logo {
+    width: 325px;
+    height: 282px
+    
+}
+header {
+    background-image: url(image\ 2.jpg);
+    width: 100%;
+    height: 363px;
+    font-family: "Marmelad";
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:100%;
+}
+nav {
+    background-color: #924E28;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.text{
+    font-size: 32px;
+    color: #5A3419;
+    text-align: center;
+}
+
+nav a {
+    background-color: #D0975E;
+    border-radius: 40px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: #F5F5F5;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+    transition: .3s;
+}
+nav a:hover {
+    padding: 5px 35px;
+    background-color: #B98149;
+    
+}
+
+main {
+    width: 100%;
+    height: 1600px;
+    background-color: #5A3419
+}
+
+.main {
+    width: 1240px;
+    height: 1600px;
+    background-color: #E7CEAB;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+p {
+    color: #311D0E;
+    font-size: 37px;
+    float: left;
+    display: flex;
+    padding-left: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    padding-right: 40px;
+}
+h1 {
+    color: #924E28;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 40px;
+    padding-left: 40px;
+
+}
+.pivo1 {
+    width: 610px;
+    height: 705px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.tri {
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    padding-top: 69px;
+}
+.pivo2 {
+    height: 850px;
+    display: flex;
+    padding-left: 40px;
+    justify-content: start;
+}
+.naazvas {
+    display: flex;
+    justify-content: end;
+    width: 600px;
+}
+
+.pivo3 {
+    padding-left: 40px;
+    height: 470px;
+    display: flex;
+    justify-content: start;
+    float: left;
+}
+.naazvas {
+    display: flex;
+    float: right;
+    justify-content: end;
+}
+.pivo4 {
+    padding-left: 40px;
+    height: 470px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
